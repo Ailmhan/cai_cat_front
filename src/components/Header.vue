@@ -4,7 +4,7 @@
 	<div class="navbar sticky top-0 z-30 min-h-fit bg-base-100 font-medium shadow-md md:px-[5%] lg:px-[10%]">
 		<div class="navbar-start">
 			<RouterLink to="/" class="shrink-0 !bg-transparent">
-				<img src="@assets/logo.svg" class="hidden h-12 w-12 cursor-pointer dark:brightness-0 dark:invert md:block" />
+			<img src="@assets/logo.svg" class="hidden h-12 w-12 cursor-pointer dark:brightness-0 dark:invert md:block" /> 
 			</RouterLink>
 			<Menu v-slot="{ open }" as="div" class="relative inline-block rounded-md md:hidden">
 				<MenuButton class="btn btn-circle btn-ghost" title="Menu">
