@@ -105,7 +105,7 @@ watchEffect(() => {
 			</div>
 		</div>
 		<div class="flex flex-wrap items-end justify-between gap-2">
-			<p class="font-medium">Installed plugins: {{ pluginsState.data?.installed?.length ?? 0 }}</p>
+			<p class="font-medium">Added Functions: {{ pluginsState.data?.installed?.length ?? 0 }}</p>
 			<!--<SelectBox v-model="selectedPageSize" :list="[10, 25, 50, 100].map(p => ({ label: p.toString(), value: p }))" />-->
 			<div class="flex flex-wrap items-end justify-between gap-2">
 				<a
@@ -120,7 +120,7 @@ watchEffect(() => {
 					class="btn btn-primary btn-sm rounded-md hover:shadow-lg"
 					@click="uploadFile('plugin')">
 					<ph-export-bold class="h-4 w-4" />
-					Upload plugin
+					Add function
 				</button>
 			</div>
 		</div>

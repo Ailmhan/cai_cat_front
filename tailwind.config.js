@@ -25,30 +25,31 @@ module.exports = {
 		themes: [
 			{
 				light: {
-					primary: '#0E8f7E',
+					primary: '#facc15',
 					secondary: '#C6FFF7',
 					accent: '#14CC9E',
 					neutral: '#383938',
 					'base-100': '#F4F4F5',
 					info: '#38BDF8',
-					success: '#2DC659',
+					success: '#DAA520', // Замените зеленый на желто-золотой
 					warning: '#EAB308',
 					error: '#EF4444',
 				},
 			},
 			{
 				dark: {
-					primary: '#14CC9E',
+					primary: '#facc15',
 					secondary: '#C6FFF7',
 					accent: '#0E8f7E',
 					neutral: '#F4F4F5',
-					'base-100': '#383938',
+					'base-100': '#171717',
 					info: '#38BDF8',
-					success: '#2DC659',
+					success: '#DAA520',
 					warning: '#EAB308',
 					error: '#EF4444',
 				},
 			},
 		],
+		
 	},
 }
