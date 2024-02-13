@@ -69,7 +69,7 @@ const fileUrl = computed(() => {
 <template>
 	<div class="chat my-2 gap-x-3" :class="[sender === 'bot' ? 'chat-start' : 'chat-end']">
 		<div class="chat-image row-[1] text-lg">
-			{{ sender === 'bot' ? '😺' : '🙂' }}
+			{{ sender === 'bot' ? '🤖' : '🙂' }}
 		</div>
 		<div class="chat-bubble row-[1] flex min-h-fit items-center break-words rounded-lg bg-base-100 p-0 text-neutral shadow-md">
 			<div class="p-2 md:p-3">

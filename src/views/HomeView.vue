@@ -156,7 +156,7 @@ const generatePlaceholder = (isLoading: boolean, isRecording: boolean, error?: s
 	if (error) return 'Well, well, well, looks like something has gone amiss'
 	if (isLoading) return 'The enigmatic CAI  is pondering...'
 	if (isRecording) return 'The curious CAI is all ears...'
-	return 'Ask the Cheshire Cat...'
+	return 'Ask Cai...'
 }
 
 const wipeHistory = async () => {
@@ -202,17 +202,17 @@ const scrollToBottom = () => {
 				{{ messagesState.error }}
 			</p>
 			<div v-else-if="messagesState.tokens.length > 0" class="mb-2 ml-2 flex items-center gap-2">
-				<span class="text-lg">😺</span>
+				<span class="text-lg">🤖</span>
 				<p class="flex max-w-[80%] items-center gap-2 text-base-content">
 					<span class="loading loading-dots loading-xs shrink-0" />
 					{{ messagesState.tokens.join('') }}
 				</p>
 			</div>
 			<div v-else-if="!messagesState.error && messagesState.loading" class="mb-2 ml-2 flex items-center gap-2">
-				<span class="text-lg">😺</span>
+				<span class="text-lg">🤖</span>
 				<p class="flex items-center gap-2">
 					<span class="loading loading-dots loading-xs shrink-0" />
-					Cheshire cat is thinking...
+					Cai is thinking...
 				</p>
 			</div>
 		</div>
